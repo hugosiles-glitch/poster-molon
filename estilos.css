@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --fondo: #2200ff;
+    --texto: #7300ff;
+}
+
+* {
+    box-sizing: border-box;
+      font-family: "Montserrat", sans-serif;
+
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background: var(--fondo);
+    color: var(--texto);
+}
+
+.tarjeta {
+  
+    width: 100vw;
+    
+    background: rgb(247, 86, 0);
+    height: 100vh;
+}
+
+#barra-controles {
+    display: flex;
+    gap: .5rem;
+    margin: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: .6rem .9rem;
+    border-radius: 10px;
+    border: 1px solid #ff009d;
+    background: hsl(323, 100%, 50%);
+    cursor: pointer;
+}
+
+#contenedor-p5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    margin: auto;
+}
+
+

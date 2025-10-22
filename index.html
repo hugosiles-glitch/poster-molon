@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Póster generativo NCR</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <main class="tarjeta">
+    <h1>PÓSTER Molon</h1>
+
+    <!-- Barra de controles -->
+    <div id="barra-controles">
+      <button id="btn-paleta">Cambiar paleta</button>
+      <button id="btn-limpiar">Limpiar</button>
+      <button id="btn-guardar">Guardar PNG</button>
+    </div>
+
+    <!-- Contenedor del sketch de p5.js -->
+    <div id="contenedor-p5"></div>
+  </main>
+
+  <!-- Librería p5.js -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.1/lib/p5.min.js"></script>
+
+  <!-- Tu script de p5 -->
+  <script src="boceto.js"></script>
+</body>
+</html>
